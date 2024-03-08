@@ -1,0 +1,4 @@
+- Declaration files are used to provide type information for libraries or code that was written in JavaScript but needs to be used in TypeScript.
+- Declaration files serve as documentation for how to use external libraries and code within TypeScript projects.
+- You should use declaration files when you're working with JavaScript libraries or code that lacks TypeScript type definitions.
+- The `/// <reference types="" />` directive allows you to include type definitions from a specific package or library.

@@ -1,0 +1,5 @@
+- Axe does not test hidden regions, such as inactive menus or modal windows
+- Tags provide metadata about the rule. Each rule has one tag that indicates which WCAG version / level it belongs to, or if it doesn't it have the best-practice tag
+- All rules have a cat.*(category) tag, which indicates what type of content it is part of
+- [List of tags](https://github.com/dequelabs/axe-core/blob/HEAD/doc/API.md#axe-core-tags)
+- [Axe testing context](https://github.com/dequelabs/axe-core/blob/be0b5558acfbeb6bbb176ac7fd7d8fdfb973b30b/doc/context.md)

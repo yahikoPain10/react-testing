@@ -1,0 +1,22 @@
+{
+  "include": [
+    "ts"
+  ],
+  "compilerOptions": {
+    "strict": true,
+    "noEmit": true,
+    "lib": ["es2015"],
+    "target": "esnext",
+    "moduleResolution": "node",
+    "module": "ESNext",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    // Auto generate declaration files
+    //
+    // "declaration": true,
+    // "declarationDir": "@types",
+    // "emitDeclarationOnly": true,
+  }
+}
